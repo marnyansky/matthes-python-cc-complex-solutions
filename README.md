@@ -1,0 +1,1 @@
+Repository containing (mostly) my solutions for exercises from the book Eric Matthes - Python Crash Course (2nd edition, 2020)
