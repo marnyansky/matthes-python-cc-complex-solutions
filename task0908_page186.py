@@ -60,7 +60,7 @@ admin1.set_privileges('sending messages', 'deleting users', 'ban users')
 print(admin1.get_privileges())
 
 # test 09.8
-Admin.privileges = Privileges()
-print(Admin.privileges.show_privileges())
+admin1.privileges = Privileges() # expands admin1 attributes by Privileges attribute(s)
+print(admin1.privileges.show_privileges())
 admin2 = Admin()
 admin2.get_privileges()
